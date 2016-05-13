@@ -1,0 +1,5 @@
+# Load the Gressy-Entities routes, so the panel can find them
+->  /panel gressyEntities.Routes
+
+# Other routes
+GET / controllers.HomeController.index()
