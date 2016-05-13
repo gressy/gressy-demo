@@ -10,5 +10,8 @@ libraryDependencies ++= Seq(
   javaJdbc,
   cache,
   javaWs,
-  "gressy" %% "gressy-entities" % "0.0.1"
+  javaJpa,
+  evolutions,
+  "gressy" %% "gressy-entities" % "0.0.1",
+  "org.postgresql" % "postgresql" % "9.4.1208.jre7"
 )
