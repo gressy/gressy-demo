@@ -1,4 +1,4 @@
-package model;
+package gressy.model;
 
 import gressy.entities.model.User;
 

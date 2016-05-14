@@ -2,4 +2,4 @@
 ->  /panel gressyEntities.Routes
 
 # Other routes
-GET / controllers.HomeController.index()
+GET / gressy.controllers.HomeController.index()

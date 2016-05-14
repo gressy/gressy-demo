@@ -1,4 +1,4 @@
-package controllers;
+package gressy.controllers;
 
 import play.mvc.*;
 
