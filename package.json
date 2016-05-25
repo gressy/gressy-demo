@@ -1,0 +1,27 @@
+{
+  "name": "gressy-demo",
+  "version": "0.0.1",
+  "description": "A demo on how to use Gressy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gressy/gressy-demo.git"
+  },
+  "author": "Gressy Project",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/gressy/gressy-demo/issues"
+  },
+  "homepage": "https://github.com/gressy/gressy-demo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0"
+  }
+}

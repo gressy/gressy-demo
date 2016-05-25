@@ -3,6 +3,7 @@ organization := "gressy"
 version := "0.0.1"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
+PlayKeys.playRunHooks += GulpRunner(baseDirectory.value)
 
 scalaVersion := "2.11.7"
 
