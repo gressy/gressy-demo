@@ -1,8 +1,6 @@
-package gressy.controllers;
+package com.github.gressy.controllers;
 
 import play.mvc.*;
-
-import views.html.*;
 
 /**
  * This controller contains an action to handle HTTP requests

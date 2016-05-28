@@ -1,6 +1,6 @@
-package gressy;
+package com.github.gressy;
 
-import gressy.entities.util.JsonExceptionFilter;
+import com.github.gressy.entities.util.JsonExceptionFilter;
 import play.filters.cors.CORSFilter;
 import play.http.HttpFilters;
 import play.mvc.EssentialFilter;

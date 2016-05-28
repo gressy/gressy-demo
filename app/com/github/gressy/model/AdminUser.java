@@ -1,6 +1,6 @@
-package gressy.model;
+package com.github.gressy.model;
 
-import gressy.entities.model.User;
+import com.github.gressy.entities.model.User;
 
 import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;

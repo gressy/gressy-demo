@@ -2,7 +2,7 @@
 ->  /panel gressyEntities.Routes
 
 # Other routes
-GET /api/welcome gressy.controllers.HomeController.index()
+GET /api/welcome com.github.gressy.controllers.HomeController.index()
 
 # Assets
 GET / controllers.Assets.at(path="/public", file="index.htm")
