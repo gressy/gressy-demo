@@ -3,6 +3,9 @@ var browserSync = require('browser-sync').create();
 var compass = require('gulp-compass');
 var sourcemaps = require('gulp-sourcemaps');
 var path = require('path');
+var browserify = require('browserify');
+var babelify = require('babelify');
+var source = require('vinyl-source-stream');
 
 // Browser-sync
 gulp.task('browser-sync-proxy', function() {
@@ -44,8 +47,14 @@ gulp.task('sass', function() {
 
 // JS
 gulp.task('js', function() {
-    // TODO ...
+    return browserify({entries: 'assets/javascripts/main.js', extensions: ['.js'], debug: true})
+        .transform(babelify)
+        .bundle()
+        .pipe(source('main.js'))
+        .pipe(gulp.dest('public/javascripts'))
+        .pipe(browserSync.stream());
 });
+
 
 // Statics
 gulp.task('copy', function() {
