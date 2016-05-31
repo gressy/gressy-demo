@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gressy/gressy-demo.svg?branch=master)](https://travis-ci.org/gressy/gressy-demo)
+
 Gressy-Demo
 ===========
 
