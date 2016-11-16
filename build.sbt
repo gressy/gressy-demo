@@ -1,6 +1,6 @@
 name := """gressy-demo"""
 organization := "gressy"
-version := "0.0.1"
+version := "0.0.2"
 
 lazy val root = (project in file(".")).enablePlugins(PlayJava)
 PlayKeys.playRunHooks += GulpRunner(baseDirectory.value)
@@ -14,6 +14,6 @@ libraryDependencies ++= Seq(
   javaJpa,
   evolutions,
   filters,
-  "com.github.gressy" %% "gressy-entities" % "0.0.1",
-  "org.postgresql" % "postgresql" % "9.4.1208.jre7"
+  "com.github.gressy" %% "gressy-entities" % "0.0.2",
+  "org.postgresql" % "postgresql" % "9.4.1212.jre7"
 )
